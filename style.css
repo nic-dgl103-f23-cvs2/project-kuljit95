@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+}
+.hero-container {
+    text-align: center;
+}
+.hero .links a {
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+}
+.hero .links {
+    margin: 50px 0;
+}
+.hero h1 {
+    color: #e03535;
+    font-size: 66px;
+}
+.hero p {
+    color: #333;
+    max-width: 830px;
+    margin: 0 auto;
+    font-size: 22px;
+    font-weight: 600;
+}
+.title {
+    color: #e03535;
+    font-weight: 500;
+    font-size: 30px;
+}
+h2 {
+    font-size: 50px;
+    color: #e03535;
+    margin-top: 0;
+}
+h3 {
+    font-size: 35px;
+    color: #e03535;
+    margin-top: 0;
+}
+.kit{
+    width: 40%;
+    padding: 5%;
+    margin: 5%;
+    background-color: #F2F5F7;
+}
+.kit img{
+    width: 100%;
+}
+.button {
+    background-color: #e03535;
+    padding: 20px 30px;
+    color: #ffffff;
+    border: 0 solid #e03535;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+}
+.blogs-container {
+    text-align: center;
+}
+.blogs-home{
+    display: flex;
+    background-color: #ffffff;
+}
+.work {
+    padding: 0px 40px;
+    margin: 0 30px;
+    width: 50%;
+}
+.works {
+    display: flex;
+}
+section.working {
+    background-color: #F2F5F7;
+}
+.work img{
+    width: 100%;
+}
