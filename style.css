@@ -78,3 +78,15 @@ section.working {
 .work img{
     width: 100%;
 }
+.four-section-content {
+    padding: 100px 40px;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.four-section{
+    width: 50%;
+}
+.four-sections {
+    display: flex;
+}
