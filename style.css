@@ -90,3 +90,12 @@ section.working {
 .four-sections {
     display: flex;
 }
+.call-to-action {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+.call-to-action-container {
+    background-image: linear-gradient(rgba(255,255,255,.8), rgba(255,255,255,.8)),  url(images/CTA-bg.jpg);
+    padding: 60px;
+}
