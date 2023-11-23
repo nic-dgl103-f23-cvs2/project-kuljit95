@@ -1,6 +1,35 @@
 body {
     margin: 0;
 }
+.container {
+    margin: 0 auto;
+    max-width: 100%;
+}
+.navbar {
+    padding: 0 5%;
+}
+.logo img{
+    height: 80px;
+}
+.topnav {
+    overflow: hidden;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: #e03535;
+    text-align: center;
+    padding: 26px 26px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a span {
+    padding: 12px 0;
+    display: inline-block;
+}
+section{
+    padding: 7% 5%;
+}
 .hero-container {
     text-align: center;
 }
@@ -38,6 +67,11 @@ h3 {
     color: #e03535;
     margin-top: 0;
 }
+.kits {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 50px;
+}
 .kit{
     width: 40%;
     padding: 5%;
@@ -56,6 +90,11 @@ h3 {
     text-transform: uppercase;
     text-decoration: none;
     display: inline-block;
+}
+.description {
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 600;
 }
 .blogs-container {
     text-align: center;
