@@ -5,6 +5,8 @@ Orange: #e03535
 body,
 .button {
 	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
 
 body {
