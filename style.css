@@ -6,7 +6,6 @@ body,
 .button {
 	margin: 0;
 	font-family: 'Montserrat', sans-serif;
-	font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -30,6 +29,7 @@ input, select, textarea {
 }
 
 p {
+	font-family: 'Roboto', sans-serif;
     color: #333;
 	font-size: 18px;
 	line-height: 28px;
@@ -221,6 +221,38 @@ section.hero {
     padding: 0 0 2em 0;
 }
 /* Close: sections */
+/* Start: Market table */
+
+#market {
+    font-family: 'Montserrat', sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#market td,
+#market th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#market tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#market tr:hover {
+    background-color: #ddd;
+}
+
+#market th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #e03535;
+    color: white;
+}
+
+/* Close: Market table */
 
 /* Start: Call to action */
 
@@ -264,6 +296,7 @@ p.date {
     color: #e03535;
     font-weight: 500;
     font-size: 30px;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .description {
